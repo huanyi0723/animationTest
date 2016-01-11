@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test_effect_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC6E2FF"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+	<TextView 
+	    android:id="@+id/text_widget"
+	    android:layout_width="fill_parent"
+	    android:layout_height="150dp"
+	    android:textSize="18sp"
+	    android:text="I am Test Efffect"
+	    android:textColor="#FFCD3700"
+	    android:background="#FF66CD00"
+	    android:gravity = "center"
+	    android:visibility="visible"
+	    />
+</LinearLayout>
